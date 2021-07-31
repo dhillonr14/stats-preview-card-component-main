@@ -1,5 +1,5 @@
 body {
-  /* background-color: hsl(233, 47%, 7%); */
+  background-color: hsl(233, 47%, 7%);
   text-align: center;
   color: hsl(0, 0%, 100%);
   font: Inter;
@@ -9,16 +9,15 @@ body {
 .container {
   /* border-collapse: separate; */
   overflow: hidden;
-  
 
   margin: 25% 10%;
   border-radius: 1%;
 }
 
 .right-card {
-    float: right;
-    width: 50%;
-    height: 100%;
+  float: right;
+  width: 50%;
+  height: 100%;
 }
 
 .image-header {
@@ -35,12 +34,13 @@ body {
   height: 100%;
   width: 50%;
   /* border-radius: 5px; */
+  padding: 0 0 15% 0%;
 }
 
 .main-heading {
-  width: 80%;
+  width: 60%;
   text-align: left;
-  font-family: 'Inter';
+  font-family: "Inter";
   margin: 0;
   padding: 10% 0 5% 10%;
 }
@@ -54,25 +54,25 @@ body {
   font-size: 15px;
   width: 60%;
   text-align: left;
-  font-family: 'Lexend Deca';
+  font-family: "Lexend Deca";
   margin: 0;
   padding: 0 0 0 10%;
 }
 
 .stats {
-    padding: 10% 0 10% 10%;
-    /* margin-bottom: 10%; */
-    text-align: left;
-    float: left;
-
-
+  margin: 10% 0 0 0;
+  padding: 10% 0 0 10%;
+  /* margin-bottom: 10%; */
+  /* text-align: left; */
+  /* float: left; */
 }
 
 .stat {
-    float: left;
-    /* margin: 0 0 0 10%; */
+  float: left;
+  /* margin: 0 0 0 10%; */
+  padding: 0 10% 0 0;
 }
 
 .stat-headings {
-    font-family: 'Lexend Deca';
+  font-family: "Lexend Deca";
 }
