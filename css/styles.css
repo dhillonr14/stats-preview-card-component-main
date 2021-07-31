@@ -1,0 +1,78 @@
+body {
+  /* background-color: hsl(233, 47%, 7%); */
+  text-align: center;
+  color: hsl(0, 0%, 100%);
+  font: Inter;
+  margin: 0;
+}
+
+.container {
+  /* border-collapse: separate; */
+  overflow: hidden;
+  
+
+  margin: 25% 10%;
+  border-radius: 1%;
+}
+
+.right-card {
+    float: right;
+    width: 50%;
+    height: 100%;
+}
+
+.image-header {
+  float: right;
+  height: 100%;
+  width: 100%;
+  /* filter: invert(58%) sepia(88%) saturate(4134%) hue-rotate(242deg) brightness(90%) contrast(90%); */
+  /* border-radius: 5px; */
+}
+
+.left-card {
+  background-color: hsl(244, 38%, 16%);
+  text-align: left;
+  height: 100%;
+  width: 50%;
+  /* border-radius: 5px; */
+}
+
+.main-heading {
+  width: 80%;
+  text-align: left;
+  font-family: 'Inter';
+  margin: 0;
+  padding: 10% 0 5% 10%;
+}
+
+.insights {
+  color: hsl(277, 64%, 61%);
+}
+
+.main-paragraph {
+  color: hsla(0, 0%, 100%, 0.75);
+  font-size: 15px;
+  width: 60%;
+  text-align: left;
+  font-family: 'Lexend Deca';
+  margin: 0;
+  padding: 0 0 0 10%;
+}
+
+.stats {
+    padding: 10% 0 10% 10%;
+    /* margin-bottom: 10%; */
+    text-align: left;
+    float: left;
+
+
+}
+
+.stat {
+    float: left;
+    /* margin: 0 0 0 10%; */
+}
+
+.stat-headings {
+    font-family: 'Lexend Deca';
+}
